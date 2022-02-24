@@ -2,6 +2,20 @@ import 'package:flutter/material.dart';
 
 class HomeViewModel with ChangeNotifier{
 
+  List<String> videosUrl = [
+    'assets/videos/video1.mp4',
+    'assets/videos/video2.mp4',
+    'assets/videos/video1.mp4',
+    'assets/videos/video2.mp4',
+    'assets/videos/video1.mp4',
+    'assets/videos/video2.mp4',
+    'assets/videos/video1.mp4',
+    'assets/videos/video2.mp4',
+    'assets/videos/video1.mp4',
+    'assets/videos/video2.mp4',
+
+  ];
+
   int _selectedIndex = 0;
   int get selectedIndex => _selectedIndex;
   void changeBottomBarIndex(int index){
